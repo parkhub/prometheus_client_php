@@ -10,9 +10,12 @@
             "email": "jan.brauer@jimdo.com"
         }
     ],
+    "replace": {
+        "jimdo/prometheus_client_php": "*"
+    },
     "require": {
         "php": ">=5.6.3",
-        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/guzzle": "^6.3|^7.0",
         "symfony/polyfill-apcu": "^1.6"
     },
     "require-dev": {
